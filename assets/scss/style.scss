@@ -1,0 +1,126 @@
+@charset "UTF-8";
+/*------------------------------------------------------------------------------------
+Theme Name: GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML 5 Template
+Theme URL: #
+Author: uigigs
+Author URL: http://www.uigigs.com/
+version: 1.0.0
+------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------
+CSS table of content
+
+01. Settings style
+02. Base style
+03. Sections style
+04. Components style
+05. Utilities style
+
+------------------------------------------------------------------------------------*/
+
+/*--------------------------------
+01. Settings style
+--------------------------------*/ 
+@import 'settings/settings.colors'; 
+@import 'settings/settings.typography'; 
+@import 'settings/settings.breakpoints';
+
+/*--------------------------------
+02. Base style
+--------------------------------*/
+@import 'helper/reset.all'; 
+@import 'helper/helper.theme';
+
+/*--------------------------------
+03. Sections style
+--------------------------------*/
+/*--- home page style ---*/
+//baner section
+@import 'sections/homePage/banner/sections.banner';
+//about section
+@import 'sections/homePage/about/sections.about';
+//projects section
+@import 'sections/homePage/projects/sections.projects';
+//previous section
+@import 'sections/homePage/previous/sections.previous';
+//tokenomics section
+@import 'sections/homePage/tokenomics/sections.tokenomics';
+//team section
+@import 'sections/homePage/team/sections.team';
+//partners section
+@import 'sections/homePage/partners/sections.partners';
+
+/*--- home two page style ---*/
+@import 'sections/homeTwo/sections.homeTwo';
+
+/*--- home three page style ---*/
+@import 'sections/homeThree/sections.homeThree';
+
+/*--- home four page style ---*/
+@import 'sections/homeFour/sections.homeFour';
+
+/*--- Project page style ---*/
+@import 'sections/projects/sections.projects';
+@import 'sections/projects/sections.calendar';
+@import 'sections/projects/sections.projectDetails';
+
+/*--- IGO Ranking page style ---*/
+@import 'sections/igoRanking/sections.igoRanking';
+
+/*--- Blog page style ---*/
+@import 'sections/blog/sections.blog';
+@import 'sections/blog/sections.blogDetails';
+
+/*--- Stacking page style ---*/
+@import 'sections/stacking/sections.stacking';
+
+/*--- farming page style ---*/
+@import 'sections/farming/sections.farming';
+
+/*--- leaderboard page style ---*/
+@import 'sections/leaderBoard/sections.leaderBoard';
+
+/*--- FAQ page style ---*/
+@import 'sections/faq/sections.faq';
+
+/*--- tier pages style ---*/
+@import 'sections/tier/sections.tier';
+
+/*--- tokenomics pages style ---*/
+@import 'sections/tokenomics/secitons.tokenomics';
+
+/*--- governance page style ---*/
+@import 'sections/governance/sectiona.governance';
+
+/*--- connect wallet pages style ---*/
+@import 'sections/connectWallet/sections.connectWallet';
+
+/*--- kyc pages style ---*/
+@import 'sections/kyc/sections.kyc';
+
+/*--- team details pages style ---*/
+@import 'sections/teamDetails/sections.teamDetails';
+
+/*--- road map pages style ---*/
+@import 'sections/roadmap/sections.roadmap';
+
+/*--- contact page style ---*/
+@import 'sections/contact/sections.contact';
+
+/*--------------------------------
+04. Components style
+--------------------------------*/
+@import 'components/components.preloader';
+@import 'components/components.buttons';
+@import 'components/components.header';
+@import 'components/components.breadcrumb';
+@import 'components/components.sectionTitle';
+@import 'components/components.form';
+@import 'components/components.footer';
+@import 'components/components.modal';
+@import 'components/components.pagination';
+@import 'components/components.progressBar';
+
+/*--------------------------------
+05. Utilities style
+--------------------------------*/
+@import 'utilities/utilities';
